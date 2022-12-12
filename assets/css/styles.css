@@ -529,14 +529,14 @@ left: 0;
   top: -69px;
   left: 20px;
 }
-
+@media (min-width: 915px){
+  .circle-text-mobile{
+    display: none;
+  }
+}
 .circle-text{
   opacity: 0;
 }
-.circle-text-mobile{
-  display: none;
-}
-
 .swiper__flex {
   border-bottom: 1px solid #27509E;
   height: 60px;
@@ -2620,7 +2620,7 @@ footer {
    width: 100%;
   }
   .color__line{
-    margin: 0;
+    margin: 0 0 15px 0;
     padding: 0 13px;
   }
   .color__text{
