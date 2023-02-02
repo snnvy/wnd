@@ -1062,15 +1062,18 @@ left: 0;
   overflow: hidden;
 }
 
-.showroom video {
-  width: 100%;
+.showroom__vid {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 650px;
+  border-radius: 20px;
 }
-
-.showroom__img {
-  width: 100%;
-  border-radius: 15px;
+@media (max-width: 500px) {
+  .showroom__vid{
+    height: 350px;
+  }
 }
-
 
 .showroom__line {
   position: absolute;
@@ -1088,7 +1091,7 @@ left: 0;
   -webkit-backdrop-filter: blur(1.90587px);
           backdrop-filter: blur(1.90587px);
   border-radius: 14.6146px;
-  right: 20px;
+  right: 290px;
   bottom: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2927,7 +2930,7 @@ border-radius: 0  0 10px 10px;
     bottom: inherit;
     right: inherit;
     top: 10px;
-    right: 10px;
+    right: 15px;
     padding: 0 10px;
     font-size: 14px;
     line-height: 16px;
