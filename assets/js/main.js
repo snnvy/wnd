@@ -182,7 +182,7 @@ document.addEventListener('keydown', function(e) {
         hiddenDivB.style.opacity = '0';
      });
 
-     var x
+     
      const hiddenDivMobile = document.getElementById('hidden-mobile-w');
      const hiddenDivMobileG = document.getElementById('hidden-mobile-g');
      const hiddenDivMobileP = document.getElementById('hidden-mobile-p');
